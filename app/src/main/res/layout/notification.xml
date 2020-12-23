@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/notification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="#D70386C1"
+    android:alpha="0.7">
+    <!--android:background="#65cb65"  -->
+
+    <ImageView
+        android:id="@+id/playtag"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="2"
+        android:src="@drawable/someone"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:id="@+id/currentmusic"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="3"
+        android:layout_marginLeft="50dp"
+        android:gravity="center_vertical"
+        android:textSize="25dp"
+        android:text="Someone Like You"
+        android:textColor="#100000"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally = "true"
+        android:focusable ="true"
+        android:focusableInTouchMode="true"/>
+
+    <ImageButton
+        android:id="@+id/pre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:src="@drawable/ic_skip_previous_black"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/playandpause"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:src="@drawable/ic_play_arrow_black" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:src="@drawable/ic_skip_next_black" />
+
+
+
+</LinearLayout>

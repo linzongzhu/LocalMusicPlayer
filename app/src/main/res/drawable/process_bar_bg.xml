@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  设置背景色  -->
+    <item android:id="@android:id/background"
+        android:height="3dp">
+        <shape
+            android:shape="rectangle">
+<!--            <stroke-->
+<!--                android:width="3dp"-->
+<!--                android:color="@color/processBarBgColor"-->
+<!--                android:dashGap="0dp"-->
+<!--                />-->
+            <size android:height="3dp"/>
+            <corners
+                android:radius="2dp"/>
+            <solid
+                android:color="@color/processBarBgColor"/>
+        </shape>
+    </item>
+
+    <!--  设置进度条颜色  -->
+    <item android:id="@android:id/progress"
+        android:height="3dp">
+        <clip>
+            <shape>
+                <solid
+                    android:color="#ddffffff"
+                    ></solid>
+                <corners
+                    android:radius="2dp"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

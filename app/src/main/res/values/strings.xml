@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mytest2</string>
+    <array name="musicNames">
+        <item>Someone Like You</item>
+        <item>故梦</item>
+        <item>朋友请听好</item>
+    </array>
+    <array name="authors">
+        <item>Adele</item>
+        <item>双笙</item>
+        <item>何炅谢娜易烊千玺</item>
+    </array>
+    <array name="musicImages">
+        <item>@drawable/someone</item>
+        <item>@drawable/gumeng</item>
+        <item>@drawable/pengyou</item>
+    </array>
+</resources>
